@@ -43,24 +43,24 @@ export default function RootLayout({
             <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
-                  <Link href="/dashboard" legacyBehavior passHref>
-                    <NavigationMenuLink>Dashboard</NavigationMenuLink>
-                  </Link>
+                  <NavigationMenuLink asChild>
+                    <Link href="/dashboard">Dashboard</Link>
+                  </NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <Link href="/matches" legacyBehavior passHref>
-                    <NavigationMenuLink>Matches</NavigationMenuLink>
-                  </Link>
+                  <NavigationMenuLink asChild>
+                    <Link href="/matches">Matches</Link>
+                  </NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <Link href="/matches/upload" legacyBehavior passHref>
-                    <NavigationMenuLink>Upload</NavigationMenuLink>
-                  </Link>
+                  <NavigationMenuLink asChild>
+                    <Link href="/matches/upload">Upload</Link>
+                  </NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <Link href="/auth" legacyBehavior passHref>
-                    <NavigationMenuLink>Sign in</NavigationMenuLink>
-                  </Link>
+                  <NavigationMenuLink asChild>
+                    <Link href="/auth">Sign in</Link>
+                  </NavigationMenuLink>
                 </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
