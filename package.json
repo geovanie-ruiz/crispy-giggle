@@ -6,7 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint .",
     "generate:migration": "npx supabase migration new",
     "migrate": "npx supabase db reset",
     "generate:types": "npx supabase gen types typescript --local > ./src/lib/supabase/generated.types.ts"
