@@ -1,3 +1,4 @@
+import { SiDiscord as DiscordIcon } from "@icons-pack/react-simple-icons";
 export type SiteConfig = typeof siteConfig;
 
 enum LinkType {
@@ -20,13 +21,46 @@ export const siteConfig = {
     },
     {
       label: "Sign in",
-      href: "/auth",
+      href: "/port",
     },
   ],
   links: [
     {
       type: LinkType.DISCORD,
-      href: "",
+      href: "#",
+      icon: <DiscordIcon size={24} />,
+    },
+  ],
+  footerNavItems: [
+    {
+      title: "For Pilots",
+      links: [
+        {
+          label: "Dashboard",
+          href: "/dashboard",
+        },
+        {
+          label: "Matches",
+          href: "/matches",
+        },
+        {
+          label: "New Match Log",
+          href: "/matches/upload",
+        },
+      ],
+    },
+    {
+      title: "For Everyone",
+      links: [
+        {
+          label: "FAQ",
+          href: "/#",
+        },
+        {
+          label: "Privacy Policy",
+          href: "#",
+        },
+      ],
     },
   ],
 };

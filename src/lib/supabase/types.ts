@@ -11,3 +11,5 @@ import { Database as DatabaseGenerated } from "./generated.types";
 // >;
 
 export type Database = DatabaseGenerated;
+
+export type User = Database["public"]["Tables"]["user"]["Row"];
