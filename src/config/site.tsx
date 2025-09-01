@@ -19,10 +19,6 @@ export const siteConfig = {
       label: "Upload",
       href: "/matches/upload",
     },
-    {
-      label: "Sign in",
-      href: "/port",
-    },
   ],
   links: [
     {

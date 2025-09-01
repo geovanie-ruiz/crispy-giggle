@@ -72,6 +72,8 @@ This repository is a Next.js web application project. It is designed for app dev
 - `eslint.config.mjs`: ESLint configuration
 - `postcss.config.mjs`: PostCSS configuration
 - `README.md`: Project overview (see below)
+- `.github/app-guide.md`: Project requirements document
+- `.github/instructions.md`: Project implementation guide
 
 ### Main Source Directory
 

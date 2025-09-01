@@ -1,18 +1,18 @@
 import { siteConfig } from "@/config/site";
-import { BookOpen } from "lucide-react";
+import { Bot } from "lucide-react";
 import Link from "next/link";
 import { ThemeToggle } from "./theme-switch";
 
 export function Footer() {
   return (
-    <footer className="bg-background border-t border-border">
+    <footer className="bg-muted border-t border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid gap-8 md:grid-cols-4">
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <BookOpen className="h-8 w-8 text-primary" />
+              <Bot className="h-8 w-8 text-primary" />
               <span className="text-xl font-bold text-foreground font-serif">
-                GCG Coach
+                The Gundam Card Game Coach
               </span>
             </div>
             <p className="text-muted-foreground max-w-md">

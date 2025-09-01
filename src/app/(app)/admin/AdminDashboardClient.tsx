@@ -61,9 +61,9 @@ enum UserRole {
   User = "user",
 }
 
-export default function AdminDashboard() {
-  const queryClient = useQueryClient();
+export default function AdminDashboardClient() {
   const router = useRouter();
+  const queryClient = useQueryClient();
   const [isDialogOpen, setIsDialogOpen] = useState(false);
   const [newUser, setNewUser] = useState<NewUser>({
     email: "",
@@ -84,15 +84,9 @@ export default function AdminDashboard() {
     queryFn: async () => {
       const data = await authClient.admin.listUsers(
         {
-          query: {
-            limit: 10,
-            sortBy: "createdAt",
-            sortDirection: "desc",
-          },
+          query: { limit: 10, sortBy: "createdAt", sortDirection: "desc" },
         },
-        {
-          throw: true,
-        }
+        { throw: true }
       );
       return data?.users || [];
     },
@@ -102,10 +96,7 @@ export default function AdminDashboard() {
     e.preventDefault();
     setIsLoading("create");
     try {
-      if (!newUser) {
-        throw new Error("User data is required");
-      }
-
+      if (!newUser) throw new Error("User data is required");
       await authClient.admin.createUser({
         email: newUser.email,
         password: newUser.password,
@@ -115,9 +106,7 @@ export default function AdminDashboard() {
       toast.success("User created successfully");
       setNewUser({ email: "", password: "", name: "", role: UserRole.User });
       setIsDialogOpen(false);
-      queryClient.invalidateQueries({
-        queryKey: ["users"],
-      });
+      queryClient.invalidateQueries({ queryKey: ["users"] });
     } catch (error: unknown) {
       toast.error((error as Error).message || "Failed to create user");
     } finally {
@@ -130,9 +119,7 @@ export default function AdminDashboard() {
     try {
       await authClient.admin.removeUser({ userId: id });
       toast.success("User deleted successfully");
-      queryClient.invalidateQueries({
-        queryKey: ["users"],
-      });
+      queryClient.invalidateQueries({ queryKey: ["users"] });
     } catch (error: unknown) {
       toast.error((error as Error).message || "Failed to delete user");
     } finally {
@@ -169,9 +156,8 @@ export default function AdminDashboard() {
     e.preventDefault();
     setIsLoading(`ban-${banForm.userId}`);
     try {
-      if (!banForm.expirationDate) {
+      if (!banForm.expirationDate)
         throw new Error("Expiration date is required");
-      }
       await authClient.admin.banUser({
         userId: banForm.userId,
         banReason: banForm.reason,
@@ -179,9 +165,7 @@ export default function AdminDashboard() {
       });
       toast.success("User banned successfully");
       setIsBanDialogOpen(false);
-      queryClient.invalidateQueries({
-        queryKey: ["users"],
-      });
+      queryClient.invalidateQueries({ queryKey: ["users"] });
     } catch (error: unknown) {
       toast.error((error as Error).message || "Failed to ban user");
     } finally {
@@ -190,7 +174,7 @@ export default function AdminDashboard() {
   };
 
   return (
-    <div className="container mx-auto p-4 space-y-8">
+    <main className="container mx-auto p-4">
       <Toaster richColors />
       <Card>
         <CardHeader className="flex flex-row items-center justify-between">
@@ -424,9 +408,7 @@ export default function AdminDashboard() {
                             if (user.banned) {
                               setIsLoading(`ban-${user.id}`);
                               await authClient.admin.unbanUser(
-                                {
-                                  userId: user.id,
-                                },
+                                { userId: user.id },
                                 {
                                   onError(context) {
                                     toast.error(
@@ -469,6 +451,6 @@ export default function AdminDashboard() {
           )}
         </CardContent>
       </Card>
-    </div>
+    </main>
   );
 }

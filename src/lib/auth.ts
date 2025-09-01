@@ -1,7 +1,6 @@
 import { betterAuth } from "better-auth";
 import { Pool } from "pg";
 import { nextCookies } from "better-auth/next-js";
-import { jwt, twoFactor } from "better-auth/plugins";
 import resend from "@/lib/resend";
 import { reactResetPasswordEmail } from "./resend/reset-password";
 import { stripe } from "@better-auth/stripe";
@@ -18,7 +17,7 @@ const SUPPORTER_PRICE_ID = {
 export const auth = betterAuth({
   appName: "GCG Coach",
   database: new Pool({
-    connectionString: process.env.DATABASE_URL,
+    connectionString: process.env.DB_URL,
   }),
   emailVerification: {
     async sendVerificationEmail({ user, url }) {
@@ -52,19 +51,6 @@ export const auth = betterAuth({
     },
   },
   plugins: [
-    twoFactor({
-      otpOptions: {
-        async sendOTP({ user, otp }) {
-          await resend.emails.send({
-            from,
-            to: user.email,
-            subject: "Your OTP",
-            html: `Your OTP is ${otp}`,
-          });
-        },
-      },
-    }),
-    jwt(),
     nextCookies(),
     stripe({
       stripeClient: new Stripe(process.env.STRIPE_KEY || "sk_test_"),
