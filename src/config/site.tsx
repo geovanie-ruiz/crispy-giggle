@@ -1,8 +1,12 @@
-import { SiDiscord as DiscordIcon } from "@icons-pack/react-simple-icons";
+import {
+  SiDiscord as DiscordIcon,
+  SiBluesky as BskyIcon,
+} from "@icons-pack/react-simple-icons";
 export type SiteConfig = typeof siteConfig;
 
 enum LinkType {
   DISCORD = "Discord",
+  BLUESKY = "Bluesky",
 }
 
 export const siteConfig = {
@@ -23,8 +27,13 @@ export const siteConfig = {
   links: [
     {
       type: LinkType.DISCORD,
-      href: "#",
+      href: "https://discord.gg/pxSbdEw3zc",
       icon: <DiscordIcon size={24} />,
+    },
+    {
+      type: LinkType.BLUESKY,
+      href: "https://bsky.app/profile/simplygeo.bsky.social",
+      icon: <BskyIcon size={24} />,
     },
   ],
   footerNavItems: [

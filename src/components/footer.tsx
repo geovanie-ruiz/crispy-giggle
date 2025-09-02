@@ -22,12 +22,14 @@ export function Footer() {
             </p>
             <div className="flex flex-row gap-4 mt-6 items-center">
               {siteConfig.links.map((link) => (
-                <div
+                <Link
                   key={link.type}
+                  href={link.href}
+                  target="_blank"
                   className="size-6 inline-block cursor-pointer text-muted-foreground hover:text-foreground"
                 >
                   {link.icon}
-                </div>
+                </Link>
               ))}
               <div className="flex flex-row items-center">
                 <ThemeToggle />
@@ -58,11 +60,11 @@ export function Footer() {
         </div>
 
         <div className="border-t border-border mt-12 pt-8 text-center text-muted-foreground">
-          <p>
+          <p className="max-w-2/3 mx-auto">
             Gundam is the property of Bandai. This app is an independent,
             fan-made project and is not affiliated with, endorsed by, or
-            sponsored by Bandai or the Gundam franchise. Built with ❤️ & 🤖—for
-            Pilots by Pilots.
+            sponsored by Bandai or the Gundam franchise. Built with ❤️ & 🤖 by
+            Simply Dev. Made for Newtypes, by Newtypes.
           </p>
         </div>
       </div>
