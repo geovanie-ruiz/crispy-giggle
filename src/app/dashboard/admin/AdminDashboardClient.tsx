@@ -20,7 +20,6 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { toast, Toaster } from "sonner";
-import { authClient } from "@/lib/auth-client";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { useRouter } from "next/navigation";
 import {
@@ -82,13 +81,14 @@ export default function AdminDashboardClient() {
   const { data: users, isLoading: isUsersLoading } = useQuery({
     queryKey: ["users"],
     queryFn: async () => {
-      const data = await authClient.admin.listUsers(
-        {
-          query: { limit: 10, sortBy: "createdAt", sortDirection: "desc" },
-        },
-        { throw: true }
-      );
-      return data?.users || [];
+      // const data = await authClient.admin.listUsers(
+      //   {
+      //     query: { limit: 10, sortBy: "createdAt", sortDirection: "desc" },
+      //   },
+      //   { throw: true }
+      // );
+      // return data?.users || [];
+      return [];
     },
   });
 
@@ -97,12 +97,12 @@ export default function AdminDashboardClient() {
     setIsLoading("create");
     try {
       if (!newUser) throw new Error("User data is required");
-      await authClient.admin.createUser({
-        email: newUser.email,
-        password: newUser.password,
-        name: newUser.name,
-        role: newUser.role,
-      });
+      // await authClient.admin.createUser({
+      //   email: newUser.email,
+      //   password: newUser.password,
+      //   name: newUser.name,
+      //   role: newUser.role,
+      // });
       toast.success("User created successfully");
       setNewUser({ email: "", password: "", name: "", role: UserRole.User });
       setIsDialogOpen(false);
@@ -117,7 +117,7 @@ export default function AdminDashboardClient() {
   const handleDeleteUser = async (id: string) => {
     setIsLoading(`delete-${id}`);
     try {
-      await authClient.admin.removeUser({ userId: id });
+      // await authClient.admin.removeUser({ userId: id });
       toast.success("User deleted successfully");
       queryClient.invalidateQueries({ queryKey: ["users"] });
     } catch (error: unknown) {
@@ -130,7 +130,7 @@ export default function AdminDashboardClient() {
   const handleRevokeSessions = async (id: string) => {
     setIsLoading(`revoke-${id}`);
     try {
-      await authClient.admin.revokeUserSessions({ userId: id });
+      // await authClient.admin.revokeUserSessions({ userId: id });
       toast.success("Sessions revoked for user");
     } catch (error: unknown) {
       toast.error((error as Error).message || "Failed to revoke sessions");
@@ -142,7 +142,7 @@ export default function AdminDashboardClient() {
   const handleImpersonateUser = async (id: string) => {
     setIsLoading(`impersonate-${id}`);
     try {
-      await authClient.admin.impersonateUser({ userId: id });
+      // await authClient.admin.impersonateUser({ userId: id });
       toast.success("Impersonated user");
       router.push("/dashboard");
     } catch (error: unknown) {
@@ -158,11 +158,11 @@ export default function AdminDashboardClient() {
     try {
       if (!banForm.expirationDate)
         throw new Error("Expiration date is required");
-      await authClient.admin.banUser({
-        userId: banForm.userId,
-        banReason: banForm.reason,
-        banExpiresIn: banForm.expirationDate.getTime() - new Date().getTime(),
-      });
+      // await authClient.admin.banUser({
+      //   userId: banForm.userId,
+      //   banReason: banForm.reason,
+      //   banExpiresIn: banForm.expirationDate.getTime() - new Date().getTime(),
+      // });
       toast.success("User banned successfully");
       setIsBanDialogOpen(false);
       queryClient.invalidateQueries({ queryKey: ["users"] });
@@ -343,13 +343,13 @@ export default function AdminDashboardClient() {
                 </TableRow>
               </TableHeader>
               <TableBody>
-                {users?.map((user) => (
-                  <TableRow key={user.id}>
-                    <TableCell>{user.email}</TableCell>
-                    <TableCell>{user.name}</TableCell>
-                    <TableCell>{user.role || "user"}</TableCell>
+                {/* {users?.map((user) => (
+                  <TableRow key={user?.id}>
+                    <TableCell>{user?.email}</TableCell>
+                    <TableCell>{user?.name}</TableCell>
+                    <TableCell>{user?.role || "user"}</TableCell>
                     <TableCell>
-                      {user.banned ? (
+                      {user?.banned ? (
                         <Badge variant="destructive">Yes</Badge>
                       ) : (
                         <Badge variant="outline">No</Badge>
@@ -445,7 +445,7 @@ export default function AdminDashboardClient() {
                       </div>
                     </TableCell>
                   </TableRow>
-                ))}
+                ))} */}
               </TableBody>
             </Table>
           )}
