@@ -13,11 +13,11 @@ export const siteConfig = {
     },
     {
       label: "Matches",
-      href: "/matches",
+      href: "/dashboard/matches",
     },
     {
       label: "Upload",
-      href: "/matches/upload",
+      href: "/dashboard/matches/upload",
     },
   ],
   links: [
@@ -37,11 +37,11 @@ export const siteConfig = {
         },
         {
           label: "Matches",
-          href: "/matches",
+          href: "/dashboard/matches",
         },
         {
           label: "New Match Log",
-          href: "/matches/upload",
+          href: "/dashboard/matches/upload",
         },
       ],
     },
@@ -50,11 +50,11 @@ export const siteConfig = {
       links: [
         {
           label: "FAQ",
-          href: "/#",
+          href: "/faq",
         },
         {
           label: "Privacy Policy",
-          href: "#",
+          href: "/privacy-policy",
         },
       ],
     },

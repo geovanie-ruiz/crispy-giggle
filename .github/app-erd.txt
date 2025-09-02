@@ -1,0 +1,339 @@
+---
+config:
+  theme: dark
+  layout: dagre
+---
+erDiagram
+	direction TB
+	PROFILES {
+		text clerk_id PK ""  
+		text display_name  ""  
+		varchar preferred_language  ""  
+		text skill_level  ""  
+		text goals  ""  
+		timestamptz created_at  ""  
+		timestamptz updated_at  ""  
+	}
+	DECKS {
+		uuid id PK ""  
+		text owner_clerk_id FK ""  
+		text name  ""  
+		text archetype  ""  
+		timestamptz created_at  ""  
+		timestamptz updated_at  ""  
+	}
+	MATCH_INGESTIONS {
+		uuid id PK ""  
+		text owner_clerk_id FK ""  
+		text source  ""  
+		text format_version  ""  
+		text raw_text  ""  
+		timestamptz created_at  ""  
+	}
+	MATCHES {
+		uuid id PK ""  
+		text owner_clerk_id FK ""  
+		uuid ingestion_id FK ""  
+		timestamptz session_date  ""  
+		int total_turns  ""  
+		text deck_archetype  ""  
+		text opponent_archetype  ""  
+		enum game_outcome  ""  
+		timestamptz created_at  ""  
+		timestamptz updated_at  ""  
+	}
+	MATCH_PLAYERS {
+		uuid id PK ""  
+		uuid match_id FK ""  
+		smallint player_slot  ""  
+		text clerk_id FK ""  
+		text display_name  ""  
+		boolean is_owner  ""  
+		uuid deck_id FK ""  
+		text deck_archetype  ""  
+	}
+	PERFORMANCE_METRICS {
+		uuid id PK ""  
+		text clerk_id FK ""  
+		text time_period  ""  
+		numeric win_rate  ""  
+		numeric combat_win_rate  ""  
+		numeric resource_efficiency_avg  ""  
+		numeric decision_satisfaction_avg  ""  
+		numeric prediction_accuracy_rate  ""  
+		int games_analyzed  ""  
+		enum improvement_trend  ""  
+		timestamptz generated_at  ""  
+	}
+	PLAYER_PATTERNS {
+		uuid id PK ""  
+		text clerk_id FK ""  
+		enum pattern_type  ""  
+		text pattern_description  ""  
+		int frequency  ""  
+		numeric confidence  ""  
+		numeric impact_on_winrate  ""  
+		text recommendation  ""  
+		text[] examples  ""  
+	}
+	STRATEGIC_INSIGHTS {
+		uuid id PK ""  
+		text clerk_id FK ""  
+		enum category  ""  
+		text insight_text  ""  
+		text[] supporting_evidence  ""  
+		text[] action_items  ""  
+		enum priority_level  ""  
+		numeric estimated_impact  ""  
+		text time_to_implement  ""  
+		timestamptz created_at  ""  
+	}
+	OPPONENT_ADAPTATIONS {
+		uuid id PK ""  
+		text clerk_id FK ""  
+		text opponent_archetype  ""  
+		text predicted_play  ""  
+		text actual_play  ""  
+		boolean prediction_accuracy  ""  
+		boolean adaptation_success  ""  
+		text lessons_learned  ""  
+		timestamptz created_at  ""  
+	}
+	WEEKLY_INSIGHTS {
+		uuid id PK ""  
+		text clerk_id FK ""  
+		text week_period  ""  
+		jsonb performance_summary  ""  
+		text[] next_week_focus  ""  
+		timestamptz created_at  ""  
+	}
+	PLAYER_RECOMMENDATIONS {
+		uuid id PK ""  
+		text clerk_id FK ""  
+		enum recommendation_type  ""  
+		text category  ""  
+		text title  ""  
+		text description  ""  
+		numeric expected_impact  ""  
+		int difficulty_level  ""  
+		text time_investment  ""  
+		text[] success_metrics  ""  
+		text[] related_patterns  ""  
+		timestamptz created_at  ""  
+	}
+	CARD_SETS {
+		uuid id PK ""  
+		text code UK ""  
+		text name  ""  
+		date release_date  ""  
+	}
+	CARDS {
+		uuid id PK ""  
+		uuid set_id FK ""  
+		text set_code  ""  
+		text card_number  ""  
+		text full_number  ""  
+		text name  ""  
+		text type  ""  
+		text color  ""  
+		int level  ""  
+		int cost  ""  
+		int ap  ""  
+		int hp  ""  
+		text rarity  ""  
+		text subtitle  ""  
+		text card_text  ""  
+		text link_text  ""  
+		uuid art_id  ""  
+		vector embedding  ""  
+		text link_condition  ""  
+		boolean is_token  ""  
+		jsonb metadata  ""  
+		timestamptz created_at  ""  
+	}
+	CARD_TRAITS {
+		uuid card_id PK,FK ""  
+		text trait PK ""  
+	}
+	CARD_TYPES {
+		uuid card_id PK,FK ""  
+		enum card_type PK ""  
+	}
+	CARD_EFFECTS {
+		uuid id PK ""  
+		uuid card_id FK ""  
+		int effect_index  ""  
+		enum scope  ""  
+		text[] timings  ""  
+		text[] restrictions  ""  
+		int cost_resources  ""  
+		text cost_description  ""  
+		text effect_text  ""  
+	}
+	CARD_CHARACTERS {
+		uuid card_id PK,FK ""  
+		uuid character_id PK,FK ""  
+		text role  ""  
+	}
+	CHARACTERS {
+		uuid id PK ""  
+		text name  ""  
+		enum kind  ""  
+		text[] alt_names  ""  
+		jsonb metadata  ""  
+		timestamptz created_at  ""  
+	}
+	DECK_CARDS {
+		uuid deck_id PK,FK ""  
+		uuid card_id PK,FK ""  
+		int quantity  ""  
+	}
+	MATCH_CARD_INSTANCES {
+		uuid id PK ""  
+		uuid match_id FK ""  
+		smallint controller_player_slot  ""  
+		uuid card_id FK ""  
+		text instance_label  ""  
+		boolean is_token  ""  
+		uuid created_event_id  ""  
+		uuid destroyed_event_id  ""  
+		timestamptz created_at  ""  
+	}
+	MATCH_EVENTS {
+		uuid id PK ""  
+		uuid match_id FK ""  
+		int event_index  ""  
+		int turn_number  ""  
+		int round_number  ""  
+		enum phase  ""  
+		enum event_type  ""  
+		smallint actor_player_slot  ""  
+		uuid parent_event_id FK ""  
+		int[] source_line_refs  ""  
+		timestamptz occurred_at  ""  
+		jsonb payload  ""  
+		smallint payload_version  ""  
+		timestamptz created_at  ""  
+	}
+	GAME_SESSIONS {
+		uuid match_id PK,FK ""  
+		text player_clerk_id FK ""  
+		text opponent_archetype  ""  
+		enum game_outcome  ""  
+		int total_turns  ""  
+		timestamptz session_date  ""  
+		text deck_archetype  ""  
+	}
+	DECISION_POINTS {
+		uuid id PK ""  
+		uuid match_id FK ""  
+		uuid event_id FK ""  
+		int turn_number  ""  
+		enum phase  ""  
+		enum decision_type  ""  
+		text chosen_action  ""  
+		text[] alternative_actions  ""  
+		text reasoning  ""  
+		int confidence_level  ""  
+		int outcome_satisfaction  ""  
+		text immediate_result  ""  
+		timestamptz created_at  ""  
+	}
+	RESOURCE_USAGE {
+		uuid id PK ""  
+		uuid match_id FK ""  
+		int turn_number  ""  
+		int resources_spent  ""  
+		int resources_generated  ""  
+		numeric efficiency_ratio  ""  
+		int cards_played  ""  
+		int impact_score  ""  
+	}
+	COMBAT_DECISIONS {
+		uuid id PK ""  
+		uuid match_id FK ""  
+		int turn_number  ""  
+		uuid attack_event_id FK ""  
+		text attack_target  ""  
+		int damage_dealt  ""  
+		int damage_received  ""  
+		int units_lost  ""  
+		int opponent_units_lost  ""  
+		boolean tactical_advantage_gained  ""  
+		text[] alternative_targets_available  ""  
+	}
+	CARD_ADVANTAGE {
+		uuid id PK ""  
+		uuid match_id FK ""  
+		int turn_number  ""  
+		int cards_in_hand  ""  
+		int cards_drawn  ""  
+		int cards_played  ""  
+		int opponent_estimated_hand_size  ""  
+		int advantage_differential  ""  
+		text advantage_source  ""  
+	}
+	DECISION_QUALITY {
+		uuid id PK ""  
+		uuid match_id FK ""  
+		numeric overall_score  ""  
+		numeric tactical_score  ""  
+		numeric strategic_score  ""  
+		numeric risk_assessment_score  ""  
+		numeric adaptation_score  ""  
+		text[] areas_for_improvement  ""  
+		text[] strengths_identified  ""  
+	}
+	INSIGHT_EVENT_LINKS {
+		uuid id PK ""  
+		uuid match_id FK ""  
+		uuid event_id FK ""  
+		text insight_kind  ""  
+		uuid insight_id  ""  
+		text notes  ""  
+	}
+	WEEKLY_INSIGHTS_INSIGHTS {
+		uuid weekly_id PK,FK ""  
+		uuid strategic_insight_id PK,FK ""  
+	}
+	WEEKLY_INSIGHTS_PATTERNS {
+		uuid weekly_id PK,FK ""  
+		uuid player_pattern_id PK,FK ""  
+	}
+
+	PROFILES||--o{DECKS:"owns"
+	PROFILES||--o{MATCH_INGESTIONS:"owns"
+	PROFILES||--o{MATCHES:"owns"
+	PROFILES||--o{MATCH_PLAYERS:"mayPlayAs"
+	PROFILES||--o{PERFORMANCE_METRICS:"has"
+	PROFILES||--o{PLAYER_PATTERNS:"has"
+	PROFILES||--o{STRATEGIC_INSIGHTS:"has"
+	PROFILES||--o{OPPONENT_ADAPTATIONS:"has"
+	PROFILES||--o{WEEKLY_INSIGHTS:"has"
+	PROFILES||--o{PLAYER_RECOMMENDATIONS:"has"
+	CARD_SETS||--o{CARDS:"contains"
+	CARDS||--o{CARD_TRAITS:"has"
+	CARDS||--o{CARD_TYPES:"hasType"
+	CARDS||--o{CARD_EFFECTS:"hasEffect"
+	CARDS||--o{CARD_CHARACTERS:"features"
+	CHARACTERS||--o{CARD_CHARACTERS:"appearsOn"
+	DECKS||--o{DECK_CARDS:"includes"
+	CARDS||--o{DECK_CARDS:"includedAs"
+	MATCHES||--o{MATCH_PLAYERS:"has"
+	MATCHES||--o{MATCH_CARD_INSTANCES:"has"
+	MATCHES||--o{MATCH_EVENTS:"has"
+	MATCH_EVENTS}o--||MATCH_EVENTS:"parentEvent"
+	MATCHES||--||GAME_SESSIONS:"summarizedBy"
+	MATCHES||--o{DECISION_POINTS:"has"
+	MATCH_EVENTS||--o{DECISION_POINTS:"atEvent"
+	MATCHES||--o{RESOURCE_USAGE:"has"
+	MATCHES||--o{COMBAT_DECISIONS:"has"
+	MATCH_EVENTS||--o{COMBAT_DECISIONS:"attackEvent"
+	MATCHES||--o{CARD_ADVANTAGE:"has"
+	MATCHES||--o{DECISION_QUALITY:"has"
+	MATCHES||--o{INSIGHT_EVENT_LINKS:"links"
+	MATCH_EVENTS||--o{INSIGHT_EVENT_LINKS:"linkedEvent"
+	WEEKLY_INSIGHTS||--o{WEEKLY_INSIGHTS_INSIGHTS:"aggregates"
+	STRATEGIC_INSIGHTS||--o{WEEKLY_INSIGHTS_INSIGHTS:"included"
+	WEEKLY_INSIGHTS||--o{WEEKLY_INSIGHTS_PATTERNS:"aggregates"
+	PLAYER_PATTERNS||--o{WEEKLY_INSIGHTS_PATTERNS:"included"

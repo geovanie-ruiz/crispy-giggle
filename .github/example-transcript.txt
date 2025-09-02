@@ -1,0 +1,512 @@
+• Player 1 is starting the game!
+• Shuffling decks...
+• Drawing starting hands...
+• Setting starting shield for each player...
+• Giving the second player an EX Resource...
+• Giving Player 0 extra resourc(es)...
+• *** Round 1 begins! ***
+• Player 1's Start Phase begins
+• Player 1's Draw Phase begins
+• Player 1's Resource Phase begins
+• Player 1's turn begins
+• Player 1 passes
+• Player 1's main phase is now over
+• Action step begins!
+• Player 2 passes their action step
+• Player 1 passes their action step
+• *** Round 2 begins! ***
+• Player 2's Start Phase begins
+• Player 2's Draw Phase begins
+• Player 2's Resource Phase begins
+• Player 2's turn begins
+• Player 2 exhausted 1 resource to pay for Zaku II (GD01-035)
+• Player 2 played Zaku II (GD01-035) (1) to the battle area
+• Player 2 exhausted 1 resource to pay for Dopp (GD01-039)
+• An EX Resource was removed from the game since it was used to pay a resource cost
+• Player 2 played Dopp (GD01-039) (2) to the battle area
+• Player 2 looks at the top card of deck from Dopp (GD01-039) (2)
+• Player 2 passes
+• Player 2's main phase is now over
+• Action step begins!
+• Player 1 passes their action step
+• Player 2 passes their action step
+• *** Round 3 begins! ***
+• Player 1's Start Phase begins
+• Player 1's Draw Phase begins
+• Player 1's Resource Phase begins
+• Player 1's turn begins
+• Player 1 exhausted 2 resources to pay for Zowort (ST01-009)
+• Player 1 played Zowort (ST01-009) (3) to the battle area
+• Player 1 passes
+• Player 1's main phase is now over
+• Action step begins!
+• Player 2 passes their action step
+• Player 1 passes their action step
+• *** Round 4 begins! ***
+• Player 2's Start Phase begins
+• Player 2's Draw Phase begins
+• Player 2's Resource Phase begins
+• Player 2's turn begins
+• Player 2 exhausted 2 resources to pay for Zaku I Sniper Type (GD01-048)
+• Player 2 played Zaku I Sniper Type (GD01-048) (4) to the battle area
+• Player 2 looks at the top card of their deck from Zaku I Sniper Type (GD01-048) (4) to reveal a Zeon / Neo Zeon unit
+• Player 2 can search the top 1 cards for a Zeon / Neo Zeon unit and put up to 1 in ther hand - they will put the rest on the bottom of their deck from Zaku I Sniper Type (GD01-048) (4)
+• Player 2 put Zaku I (ST03-007) in their hand
+• Zaku I Sniper Type (GD01-048) (4) is rested
+• Player 2 triggers Zaku I Sniper Type (GD01-048) (4)
+• Player 2 activates Support 1 from Zaku I Sniper Type (GD01-048) (4)
+• Player 2 gives AP+1 to Dopp (GD01-039) (2) from Support 1 from Zaku I Sniper Type (GD01-048) (4)
+• Dopp (GD01-039) (2) is rested
+• Player 2 is attacking with Dopp (GD01-039) (2) with 2 AP!
+• EX Base (EXB-001) is the target of the attack (0 AP)!
+• Action step begins!
+• Player 1 passes their action step
+• Player 2 passes their action step
+• Dopp (GD01-039) (2) is attacking EX Base (EXB-001) for 2 damage
+• Dopp (GD01-039) (2) is dealing 2 damage to EX Base (EXB-001)
+• Zaku II (GD01-035) (1) is rested
+• Player 2 is attacking with Zaku II (GD01-035) (1) with 2 AP!
+• EX Base (EXB-001) is the target of the attack (0 AP)!
+• Action step begins!
+• Player 1 passes their action step
+• Player 2 passes their action step
+• Zaku II (GD01-035) (1) is attacking EX Base (EXB-001) for 2 damage
+• Zaku II (GD01-035) (1) is dealing 2 damage to EX Base (EXB-001)
+• EX Base (EXB-001) is destroyed!
+• Player 2 passes
+• Player 2's main phase is now over
+• Action step begins!
+• Player 1 passes their action step
+• Player 2 passes their action step
+• *** Round 5 begins! ***
+• Player 1's Start Phase begins
+• Player 1's Draw Phase begins
+• Player 1's Resource Phase begins
+• Player 1's turn begins
+• Player 1 exhausted 1 resource to pay for Underground Desert Base (GD01-126)
+• Player 1 played Underground Desert Base (GD01-126) as their base
+• Player 1 adds 1 Shield to their hand from Underground Desert Base (GD01-126)
+• Player 1 exhausted 1 resource to pay for Overflowing Affection (GD01-118)
+• Player 1 plays Overflowing Affection (GD01-118)
+• Player 1 draws 2 cards and discards 1 from Overflowing Affection (GD01-118)
+• Player 1 needs to discard a card from hand from Overflowing Affection (GD01-118)
+• Player 1 discarded Archangel (ST04-015)
+• Player 1 passes
+• Player 1's main phase is now over
+• Action step begins!
+• Player 2 passes their action step
+• Player 1 passes their action step
+• *** Round 6 begins! ***
+• Player 2's Start Phase begins
+• Player 2's Draw Phase begins
+• Player 2's Resource Phase begins
+• Player 2's turn begins
+• Dopp (GD01-039) (2) is rested
+• Player 2 is attacking with Dopp (GD01-039) (2) with 1 AP!
+• Underground Desert Base (GD01-126) is the target of the attack (0 AP)!
+• Zowort (ST01-009) (3) is now blocking the attack!
+• Zowort (ST01-009) (3) is rested
+• Action step begins!
+• Player 1 passes their action step
+• Player 2 exhausted 2 resources to pay for Close Combat (ST03-013)
+• Player 2 plays Close Combat (ST03-013)
+• Player 2 uses Close Combat (ST03-013)'s Action to deal 2 damage to an enemy Unit
+• Close Combat (ST03-013) is dealing 2 damage to Zowort (ST01-009) (3)
+• Zowort (ST01-009) is destroyed from Close Combat (ST03-013)
+• Player 1 passes their action step
+• Player 2 passes their action step
+• The attack ends since Zowort (ST01-009) is no longer in play
+• Player 2 exhausted 1 resource to pay for Char Aznable (ST03-011)
+• Player 2 pairs Char Aznable (ST03-011) to Zaku II (GD01-035) (1)
+• Zaku I Sniper Type (GD01-048) (4) is rested
+• Player 2 triggers Zaku I Sniper Type (GD01-048) (4)
+• Player 2 activates Support 1 from Zaku I Sniper Type (GD01-048) (4)
+• Player 2 gives AP+1 to Zaku II (GD01-035) (1) from Support 1 from Zaku I Sniper Type (GD01-048) (4)
+• Zaku II (GD01-035) (1) is rested
+• Player 2 is attacking with Zaku II (GD01-035) (1) with 4 AP!
+• Underground Desert Base (GD01-126) is the target of the attack (0 AP)!
+• Zaku II (GD01-035) (1) gets AP+1 from Char Aznable (ST03-011)
+• Action step begins!
+• Player 1 passes their action step
+• Player 2 passes their action step
+• Zaku II (GD01-035) (1) is attacking Underground Desert Base (GD01-126) for 5 damage
+• Zaku II (GD01-035) (1) is dealing 5 damage to Underground Desert Base (GD01-126)
+• Player 2 passes
+• Player 2's main phase is now over
+• Action step begins!
+• Player 1 passes their action step
+• Player 2 passes their action step
+• *** Round 7 begins! ***
+• Player 1's Start Phase begins
+• Player 1's Draw Phase begins
+• Player 1's Resource Phase begins
+• Player 1's turn begins
+• Player 1 exhausted 2 resources to pay for Striker Pack (ST04-012)
+• Player 1 plays Striker Pack (ST04-012)
+• Player 1 deploys 1 Launcher Strike Gundam token from Striker Pack (ST04-012)
+• Player 1 played Launcher Strike Gundam (T-009) (5) to the battle area
+• Player 1 exhausted 2 resources to pay for Gundam Lfrith (GD01-086)
+• Player 1 played Gundam Lfrith (GD01-086) (6) to the battle area
+• Player 1 passes
+• Player 1's main phase is now over
+• Action step begins!
+• Player 2 passes their action step
+• Player 1 passes their action step
+• *** Round 8 begins! ***
+• Player 2's Start Phase begins
+• Player 2's Draw Phase begins
+• Player 2's Resource Phase begins
+• Player 2's turn begins
+• Zaku II (GD01-035) (1) is rested
+• Player 2 is attacking with Zaku II (GD01-035) (1) with 3 AP!
+• Underground Desert Base (GD01-126) is the target of the attack (0 AP)!
+• Zaku II (GD01-035) (1) gets AP+1 from Char Aznable (ST03-011)
+• Launcher Strike Gundam (T-009) (5) is now blocking the attack!
+• Launcher Strike Gundam (T-009) (5) is rested
+• Action step begins!
+• Player 1 passes their action step
+• Player 2 passes their action step
+• Zaku II (GD01-035) (1) is attacking Launcher Strike Gundam (T-009) (5) for 4 damage; Launcher Strike Gundam (T-009) (5) will attack back for 2 damage
+• Zaku II (GD01-035) (1) is dealing 4 damage to Launcher Strike Gundam (T-009) (5)
+• Launcher Strike Gundam (T-009) (5) is dealing 2 damage to Zaku II (GD01-035) (1)
+• Launcher Strike Gundam (T-009) is destroyed from Zaku II (GD01-035) (1)
+• Player 2 exhausted 2 resources to pay for Char's Zaku II (GD01-026)
+• Player 2 played Char's Zaku II (GD01-026) (7) to the battle area
+• Player 2 exhausted 1 resource to pay for M'Quve (GD01-092)
+• Player 2 pairs M'Quve (GD01-092) to Dopp (GD01-039) (2)
+• Player 2 exhausted 1 resource to pay for Zaku II (ST03-008)
+• Player 2 played Zaku II (ST03-008) (8) to the battle area
+• Zaku I Sniper Type (GD01-048) (4) is rested
+• Player 2 triggers Zaku I Sniper Type (GD01-048) (4)
+• Player 2 activates Support 1 from Zaku I Sniper Type (GD01-048) (4)
+• Player 2 gives AP+1 to Dopp (GD01-039) (2) from Support 1 from Zaku I Sniper Type (GD01-048) (4)
+• Dopp (GD01-039) (2) is rested
+• Player 2 is attacking with Dopp (GD01-039) (2) with 3 AP!
+• Underground Desert Base (GD01-126) is the target of the attack (0 AP)!
+• Gundam Lfrith (GD01-086) (6) is now blocking the attack!
+• Gundam Lfrith (GD01-086) (6) is rested
+• Action step begins!
+• Player 1 passes their action step
+• Player 2 passes their action step
+• Dopp (GD01-039) (2) is attacking Gundam Lfrith (GD01-086) (6) for 3 damage; Gundam Lfrith (GD01-086) (6) will attack back for 2 damage
+• Dopp (GD01-039) (2) is dealing 3 damage to Gundam Lfrith (GD01-086) (6)
+• Gundam Lfrith (GD01-086) (6) is dealing 2 damage to Dopp (GD01-039) (2)
+• Dopp (GD01-039) is destroyed from Gundam Lfrith (GD01-086) (6)
+• Player 2 passes
+• Player 2's main phase is now over
+• Action step begins!
+• Player 1 passes their action step
+• Player 2 passes their action step
+• *** Round 9 begins! ***
+• Player 1's Start Phase begins
+• Player 1's Draw Phase begins
+• Player 1's Resource Phase begins
+• Player 1's turn begins
+• Player 1 exhausted 1 resource to pay for Kira Yamato (ST04-010)
+• Player 1 pairs Kira Yamato (ST04-010) to Gundam Lfrith (GD01-086) (6)
+• Player 1 exhausted 3 resources to pay for Wing Gundam (Bird Mode) (ST02-002)
+• Player 1 played Wing Gundam (Bird Mode) (ST02-002) (9) to the battle area
+• Player 1 places 1 EX Resource from Wing Gundam (Bird Mode) (ST02-002) (9)
+• Player 1 exhausted 1 resource to pay for Overflowing Affection (GD01-118)
+• Player 1 plays Overflowing Affection (GD01-118)
+• Player 1 draws 2 cards and discards 1 from Overflowing Affection (GD01-118)
+• Player 1 needs to discard a card from hand from Overflowing Affection (GD01-118)
+• Player 1 discarded Gundam Deathscythe (GD01-025)
+• Gundam Lfrith (GD01-086) (6) is rested
+• Player 1 is attacking with Gundam Lfrith (GD01-086) (6) with 4 AP!
+• Zaku II (GD01-035) (1) is the target of the attack (3 AP)!
+• Player 1 chooses an enemy unit to give -2 AP during this battle from Kira Yamato (ST04-010)
+• Player 1 gives -2 AP to Zaku II (GD01-035) (1) from Kira Yamato (ST04-010)
+• Action step begins!
+• Player 2 passes their action step
+• Player 1 passes their action step
+• Gundam Lfrith (GD01-086) (6) is attacking Zaku II (GD01-035) (1) for 4 damage; Zaku II (GD01-035) (1) will attack back for 1 damage
+• Gundam Lfrith (GD01-086) (6) is dealing 4 damage to Zaku II (GD01-035) (1)
+• Zaku II (GD01-035) (1) is dealing 1 damage to Gundam Lfrith (GD01-086) (6)
+• Zaku II (GD01-035) is destroyed from Gundam Lfrith (GD01-086) (6)
+• Player 1 passes
+• Player 1's main phase is now over
+• Action step begins!
+• Player 2 passes their action step
+• Player 1 passes their action step
+• *** Round 10 begins! ***
+• Player 2's Start Phase begins
+• Player 2's Draw Phase begins
+• Player 2's Resource Phase begins
+• Player 2's turn begins
+• Char's Zaku II (GD01-026) (7) is rested
+• Player 2 is attacking with Char's Zaku II (GD01-026) (7) with 3 AP!
+• Underground Desert Base (GD01-126) is the target of the attack (0 AP)!
+• Action step begins!
+• Player 1 passes their action step
+• Player 2 passes their action step
+• Char's Zaku II (GD01-026) (7) is attacking Underground Desert Base (GD01-126) for 3 damage
+• Char's Zaku II (GD01-026) (7) is dealing 3 damage to Underground Desert Base (GD01-126)
+• Underground Desert Base (GD01-126) is destroyed!
+• Zaku II (ST03-008) (8) is rested
+• Player 2 is attacking with Zaku II (ST03-008) (8) with 1 AP!
+• Player 1's Shields are being attacked!
+• Zaku II (ST03-008) (8) gets AP+2 during this turn
+• Action step begins!
+• Player 1 passes their action step
+• Player 2 passes their action step
+• Zaku II (ST03-008) (8) is attacking Player 1's Shields
+• Zaku II (ST03-008) (8) is dealing 3 damage to Player 1's Shields
+• Player 2 exhausted 4 resources to pay for Char's Gelgoog (GD01-023)
+• Player 2 played Char's Gelgoog (GD01-023) (10) to the battle area
+• Player 2 needs to discard a card from hand from Char's Gelgoog (GD01-023) (10)
+• Player 2 discarded Zaku I (ST03-007)
+• Player 2 triggers Char's Gelgoog (GD01-023) (10)
+• Player 2 activates Char's Gelgoog (GD01-023) (10) to pair with a Pilot from trash
+• Player 2 pairs Char Aznable (ST03-011) to Char's Gelgoog (GD01-023) (10)
+• Char's Gelgoog (GD01-023) (10) is rested
+• Player 2 is attacking with Char's Gelgoog (GD01-023) (10) with 5 AP!
+• Player 1's Shields are being attacked!
+• Char's Gelgoog (GD01-023) (10) gets AP+1 from Char Aznable (ST03-011)
+• Char's Gelgoog (GD01-023) (10) also gains High-Maneuver since it is a Link Unit
+• Action step begins!
+• Player 1 passes their action step
+• Player 2 passes their action step
+• Char's Gelgoog (GD01-023) (10) is attacking Player 1's Shields
+• Char's Gelgoog (GD01-023) (10) is dealing 6 damage to Player 1's Shields
+• Player 2 passes
+• Player 2's main phase is now over
+• Action step begins!
+• Player 1 passes their action step
+• Player 2 passes their action step
+• *** Round 11 begins! ***
+• Player 1's Start Phase begins
+• Player 1's Draw Phase begins
+• Player 1's Resource Phase begins
+• Player 1's turn begins
+• Player 1 exhausted 4 resources to pay for Aile Strike Gundam (ST04-001)
+• Player 1 played Aile Strike Gundam (ST04-001) (11) to the battle area
+• Player 1 exhausted 1 resource to pay for Kira Yamato (ST04-010)
+• Player 1 chooses an enemy Unit with 4 or less HP to return to its owner's hand from Aile Strike Gundam (ST04-001) (11)
+• Zaku II (ST03-008) (8) is returned to their owner's hand from Aile Strike Gundam (ST04-001) (11)
+• Player 1 pairs Kira Yamato (ST04-010) to Aile Strike Gundam (ST04-001) (11)
+• Wing Gundam (Bird Mode) (ST02-002) (9) is rested
+• Player 1 is attacking with Wing Gundam (Bird Mode) (ST02-002) (9) with 2 AP!
+• Char's Zaku II (GD01-026) (7) is the target of the attack (3 AP)!
+• Action step begins!
+• Player 2 passes their action step
+• Player 1 passes their action step
+• Wing Gundam (Bird Mode) (ST02-002) (9) is attacking Char's Zaku II (GD01-026) (7) for 2 damage; Char's Zaku II (GD01-026) (7) will attack back for 3 damage
+• Wing Gundam (Bird Mode) (ST02-002) (9) is dealing 2 damage to Char's Zaku II (GD01-026) (7)
+• Char's Zaku II (GD01-026) (7) is dealing 3 damage to Wing Gundam (Bird Mode) (ST02-002) (9)
+• Wing Gundam (Bird Mode) (ST02-002) is destroyed from Char's Zaku II (GD01-026) (7)
+• Char's Zaku II (GD01-026) is destroyed from Wing Gundam (Bird Mode) (ST02-002)
+• Gundam Lfrith (GD01-086) (6) is rested
+• Player 1 is attacking with Gundam Lfrith (GD01-086) (6) with 4 AP!
+• Char's Gelgoog (GD01-023) (10) is the target of the attack (5 AP)!
+• Player 1 chooses an enemy unit to give -2 AP during this battle from Kira Yamato (ST04-010)
+• Player 1 gives -2 AP to Char's Gelgoog (GD01-023) (10) from Kira Yamato (ST04-010)
+• Action step begins!
+• Player 2 passes their action step
+• Player 1 passes their action step
+• Gundam Lfrith (GD01-086) (6) is attacking Char's Gelgoog (GD01-023) (10) for 4 damage; Char's Gelgoog (GD01-023) (10) will attack back for 3 damage
+• Gundam Lfrith (GD01-086) (6) is dealing 4 damage to Char's Gelgoog (GD01-023) (10)
+• Char's Gelgoog (GD01-023) (10) is dealing 3 damage to Gundam Lfrith (GD01-086) (6)
+• Gundam Lfrith (GD01-086) is destroyed from Char's Gelgoog (GD01-023) (10)
+• Char's Gelgoog (GD01-023) is destroyed from Gundam Lfrith (GD01-086)
+• Aile Strike Gundam (ST04-001) (11) is rested
+• Player 1 is attacking with Aile Strike Gundam (ST04-001) (11) with 6 AP!
+• EX Base (EXB-001) is the target of the attack (0 AP)!
+• Player 1 chooses an enemy unit to give -2 AP during this battle from Kira Yamato (ST04-010)
+• Player 1 gives -2 AP to Zaku I Sniper Type (GD01-048) (4) from Kira Yamato (ST04-010)
+• Action step begins!
+• Player 2 passes their action step
+• Player 1 passes their action step
+• Aile Strike Gundam (ST04-001) (11) is attacking EX Base (EXB-001) for 6 damage
+• Aile Strike Gundam (ST04-001) (11) is dealing 6 damage to EX Base (EXB-001)
+• EX Base (EXB-001) is destroyed!
+• Player 1 passes
+• Player 1's main phase is now over
+• Action step begins!
+• Player 2 passes their action step
+• Player 1 passes their action step
+• *** Round 12 begins! ***
+• Player 2's Start Phase begins
+• Player 2's Draw Phase begins
+• Player 2's Resource Phase begins
+• Player 2's turn begins
+• Player 2 exhausted 2 resources to pay for Zanzibar (GD01-125)
+• Player 2 played Zanzibar (GD01-125) as their base
+• Player 2 adds 1 Shield to their hand from Zanzibar (GD01-125)
+• Player 2 may deploy a Zeon Unit from hand from Zanzibar (GD01-125)
+• Player 2 played Char's Zaku II (ST03-006) (12) to the battle area
+• Player 2 exhausted 2 resources to pay for Gaza D (Sleeves) (ST03-004)
+• Player 2 played Gaza D (Sleeves) (ST03-004) (13) to the battle area
+• Gaza D (Sleeves) (ST03-004) (13) is rested
+• Player 2 triggers Gaza D (Sleeves) (ST03-004) (13)
+• Player 2 activates Support 2 from Gaza D (Sleeves) (ST03-004) (13)
+• Player 2 gives AP+2 to Zaku I Sniper Type (GD01-048) (4) from Support 2 from Gaza D (Sleeves) (ST03-004) (13)
+• Zaku I Sniper Type (GD01-048) (4) is rested
+• Player 2 is attacking with Zaku I Sniper Type (GD01-048) (4) with 2 AP!
+• Player 1's Shields are being attacked!
+• Action step begins!
+• Player 1 passes their action step
+• Player 2 passes their action step
+• Zaku I Sniper Type (GD01-048) (4) is attacking Player 1's Shields
+• Zaku I Sniper Type (GD01-048) (4) is dealing 2 damage to Player 1's Shields
+• Player 2 exhausted 1 resource to pay for Zaku II (ST03-008)
+• Player 2 played Zaku II (ST03-008) (14) to the battle area
+• Player 2 passes
+• Player 2's main phase is now over
+• Action step begins!
+• Player 1 passes their action step
+• Player 2 passes their action step
+• *** Round 13 begins! ***
+• Player 1's Start Phase begins
+• Player 1's Draw Phase begins
+• Player 1's Resource Phase begins
+• Player 1's turn begins
+• Player 1 exhausted 8 resources to pay for Wing Gundam Zero (GD01-024)
+• An EX Resource was removed from the game since it was used to pay a resource cost
+• Player 1 played Wing Gundam Zero (GD01-024) (15) to the battle area
+• Player 1 deals 3 damage to all Units that are Lv.5 or lower
+• Wing Gundam Zero (GD01-024) (15) is dealing 3 damage to Aile Strike Gundam (ST04-001) (11)
+• Wing Gundam Zero (GD01-024) (15) is dealing 3 damage to Zaku I Sniper Type (GD01-048) (4)
+• Zaku I Sniper Type (GD01-048) is destroyed from Wing Gundam Zero (GD01-024) (15)
+• Wing Gundam Zero (GD01-024) (15) is dealing 3 damage to Char's Zaku II (ST03-006) (12)
+• Char's Zaku II (ST03-006) is destroyed from Wing Gundam Zero (GD01-024) (15)
+• Player 2 looks at the top 3 cards of their deck for a Zeon/Neo Zeon Unit card from Char's Zaku II (ST03-006) (12)'s effect
+• Player 2 can search the top 3 cards for Zeon/Neo Zeon Unit card and put up to 1 in ther hand - they will put the rest on the bottom of their deck in random order from Char's Zaku II (ST03-006) (12)
+• Wing Gundam Zero (GD01-024) (15) is dealing 3 damage to Gaza D (Sleeves) (ST03-004) (13)
+• Gaza D (Sleeves) (ST03-004) is destroyed from Wing Gundam Zero (GD01-024) (15)
+• Wing Gundam Zero (GD01-024) (15) is dealing 3 damage to Zaku II (ST03-008) (14)
+• Zaku II (ST03-008) is destroyed from Wing Gundam Zero (GD01-024) (15)
+• Aile Strike Gundam (ST04-001) (11) is rested
+• Player 1 is attacking with Aile Strike Gundam (ST04-001) (11) with 6 AP!
+• Zanzibar (GD01-125) is the target of the attack (0 AP)!
+• Player 1 chooses an enemy unit to give -2 AP during this battle from Kira Yamato (ST04-010)
+• Action step begins!
+• Player 2 passes their action step
+• Player 1 passes their action step
+• Aile Strike Gundam (ST04-001) (11) is attacking Zanzibar (GD01-125) for 6 damage
+• Aile Strike Gundam (ST04-001) (11) is dealing 6 damage to Zanzibar (GD01-125)
+• Zanzibar (GD01-125) is destroyed!
+• Player 1 passes
+• Player 1's main phase is now over
+• Action step begins!
+• Player 2 passes their action step
+• Player 1 passes their action step
+• *** Round 14 begins! ***
+• Player 2's Start Phase begins
+• Player 2's Draw Phase begins
+• Player 2's Resource Phase begins
+• Player 2's turn begins
+• Player 2 exhausted 2 resources to pay for Close Combat (ST03-013)
+• Player 2 plays Close Combat (ST03-013)
+• Player 2 deals 2 damage to an enemy Unit from Close Combat (ST03-013)
+• Close Combat (ST03-013) is dealing 2 damage to Aile Strike Gundam (ST04-001) (11)
+• Aile Strike Gundam (ST04-001) is destroyed from Close Combat (ST03-013)
+• Player 2 passes
+• Player 2's main phase is now over
+• Action step begins!
+• Player 1 passes their action step
+• Player 2 passes their action step
+• *** Round 15 begins! ***
+• Player 1's Start Phase begins
+• Player 1's Draw Phase begins
+• Player 1's Resource Phase begins
+• Player 1's turn begins
+• Player 1 exhausted 4 resources to pay for Wing Gundam (ST02-001)
+• Player 1 played Wing Gundam (ST02-001) (16) to the battle area
+• Player 1 exhausted 2 resources to pay for Gundam Lfrith (GD01-086)
+• Player 1 played Gundam Lfrith (GD01-086) (17) to the battle area
+• Player 1 exhausted 2 resources to pay for Striker Pack (ST04-012)
+• Player 1 plays Striker Pack (ST04-012)
+• Player 1 deploys 1 Launcher Strike Gundam token from Striker Pack (ST04-012)
+• Player 1 played Launcher Strike Gundam (T-009) (18) to the battle area
+• Wing Gundam Zero (GD01-024) (15) is rested
+• Player 1 is attacking with Wing Gundam Zero (GD01-024) (15) with 5 AP!
+• Wing Gundam Zero (GD01-024) (15) is rested
+• Player 1 is attacking with Wing Gundam Zero (GD01-024) (15) with 5 AP!
+• Player 2's Shields are being attacked!
+• Action step begins!
+• Player 2 passes their action step
+• Player 1 passes their action step
+• Wing Gundam Zero (GD01-024) (15) is attacking Player 2's Shields
+• Wing Gundam Zero (GD01-024) (15) is dealing 5 damage to Player 2's Shields
+• Player 1 passes
+• Player 1's main phase is now over
+• Action step begins!
+• Player 2 passes their action step
+• Player 1 passes their action step
+• *** Round 16 begins! ***
+• Player 2's Start Phase begins
+• Player 2's Draw Phase begins
+• Player 2's Resource Phase begins
+• Player 2's turn begins
+• Player 2 exhausted 2 resources to pay for Falmel (ST03-016)
+• Player 2 played Falmel (ST03-016) as their base
+• Player 2 adds 1 Shield to their hand from Falmel (ST03-016)
+• Player 2 creates 1 Char's Zaku II token
+• Player 2 played Char's Zaku II (T-006) (19) to the battle area
+• Player 2 exhausted 1 resource to pay for Dopp (GD01-039)
+• Player 2 played Dopp (GD01-039) (20) to the battle area
+• Player 2 looks at the top card of deck from Dopp (GD01-039) (20)
+• Player 2 passes
+• Player 2's main phase is now over
+• Action step begins!
+• Player 1 passes their action step
+• Player 2 passes their action step
+• *** Round 17 begins! ***
+• Player 1's Start Phase begins
+• Player 1's Draw Phase begins
+• Player 1's Resource Phase begins
+• Player 1's turn begins
+• Player 1 exhausted 8 resources to pay for Wing Gundam Zero (GD01-024)
+• Player 1 played Wing Gundam Zero (GD01-024) (21) to the battle area
+• Player 1 deals 3 damage to all Units that are Lv.5 or lower
+• Wing Gundam Zero (GD01-024) (21) is dealing 3 damage to Gundam Lfrith (GD01-086) (17)
+• Wing Gundam Zero (GD01-024) (21) is dealing 3 damage to Launcher Strike Gundam (T-009) (18)
+• Wing Gundam Zero (GD01-024) (21) is dealing 3 damage to Char's Zaku II (T-006) (19)
+• Char's Zaku II (T-006) is destroyed from Wing Gundam Zero (GD01-024) (21)
+• Wing Gundam Zero (GD01-024) (21) is dealing 3 damage to Dopp (GD01-039) (20)
+• Dopp (GD01-039) is destroyed from Wing Gundam Zero (GD01-024) (21)
+• Player 1 exhausted 1 resource to pay for Heero Yuy (ST02-010)
+• Player 1 pairs Heero Yuy (ST02-010) to Wing Gundam Zero (GD01-024) (21)
+• Wing Gundam Zero (GD01-024) (15) is rested
+• Player 1 is attacking with Wing Gundam Zero (GD01-024) (15) with 5 AP!
+• Falmel (ST03-016) is the target of the attack (0 AP)!
+• Action step begins!
+• Player 2 passes their action step
+• Player 1 passes their action step
+• Wing Gundam Zero (GD01-024) (15) is attacking Falmel (ST03-016) for 5 damage
+• Wing Gundam Zero (GD01-024) (15) is dealing 5 damage to Falmel (ST03-016)
+• Falmel (ST03-016) is destroyed!
+• Wing Gundam (ST02-001) (16) is rested
+• Player 1 is attacking with Wing Gundam (ST02-001) (16) with 4 AP!
+• Player 2's Shields are being attacked!
+• Action step begins!
+• Player 2 passes their action step
+• Player 1 passes their action step
+• Wing Gundam (ST02-001) (16) is attacking Player 2's Shields
+• Wing Gundam (ST02-001) (16) is dealing 4 damage to Player 2's Shields
+• Player 2 can activate the Burst effect from Char Aznable (ST03-011)
+• Player 2 adds Char Aznable (ST03-011) to their hand from its Burst effect
+• Gundam Lfrith (GD01-086) (17) is rested
+• Player 1 is attacking with Gundam Lfrith (GD01-086) (17) with 2 AP!
+• Player 2's Shields are being attacked!
+• Action step begins!
+• Player 2 passes their action step
+• Player 1 passes their action step
+• Gundam Lfrith (GD01-086) (17) is attacking Player 2's Shields
+• Gundam Lfrith (GD01-086) (17) is dealing 2 damage to Player 2's Shields
+• Launcher Strike Gundam (T-009) (18) is rested
+• Player 1 is attacking with Launcher Strike Gundam (T-009) (18) with 2 AP!
+• Player 2's Shields are being attacked!
+• Action step begins!
+• Player 2 passes their action step
+• Player 1 passes their action step
+• Launcher Strike Gundam (T-009) (18) is attacking Player 2's Shields
+• Launcher Strike Gundam (T-009) (18) is dealing 2 damage to Player 2's Shields
+• Wing Gundam Zero (GD01-024) (21) is rested
+• Player 1 is attacking with Wing Gundam Zero (GD01-024) (21) with 8 AP!
+• Player 2 is being attacked!
+• Action step begins!
+• Player 2 passes their action step
+• Player 1 passes their action step
+• Player 1 wins the game!

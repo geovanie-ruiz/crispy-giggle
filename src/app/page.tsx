@@ -1,5 +1,6 @@
 "use client";
 
+import { Waitlist } from "@clerk/nextjs";
 import { CldImage } from "next-cloudinary";
 
 export default function Home() {
@@ -38,6 +39,9 @@ export default function Home() {
                     over time.
                   </p>
                 </div>
+              </div>
+              <div className="flex items-center justify-center pt-4">
+                <Waitlist />
               </div>
             </div>
           </div>

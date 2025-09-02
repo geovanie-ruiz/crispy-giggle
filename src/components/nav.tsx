@@ -48,7 +48,7 @@ export const Nav = () => {
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuLink asChild>
+                <NavigationMenuLink asChild className="ml-4">
                   <SignUpButton>
                     <Button>Sign Up</Button>
                   </SignUpButton>
@@ -57,10 +57,8 @@ export const Nav = () => {
             </SignedOut>
 
             <SignedIn>
-              <NavigationMenuItem>
-                <div className="ml-4">
-                  <UserButton />
-                </div>
+              <NavigationMenuItem className="ml-4">
+                <UserButton />
               </NavigationMenuItem>
             </SignedIn>
           </NavigationMenuList>
