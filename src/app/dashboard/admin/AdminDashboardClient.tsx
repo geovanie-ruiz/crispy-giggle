@@ -14,22 +14,13 @@ import {
 import {
   Table,
   TableBody,
-  TableCell,
   TableHead,
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
 import { toast, Toaster } from "sonner";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
-import { useRouter } from "next/navigation";
-import {
-  Loader2,
-  Plus,
-  Trash,
-  RefreshCw,
-  UserCircle,
-  Calendar as CalendarIcon,
-} from "lucide-react";
+import { Loader2, Plus, Calendar as CalendarIcon } from "lucide-react";
 import {
   Dialog,
   DialogContent,
@@ -46,7 +37,6 @@ import {
 } from "@/components/ui/popover";
 import { format } from "date-fns";
 import { cn } from "@/lib/utils";
-import { Badge } from "@/components/ui/badge";
 
 type NewUser = {
   email: string;
@@ -61,7 +51,7 @@ enum UserRole {
 }
 
 export default function AdminDashboardClient() {
-  const router = useRouter();
+  // const router = useRouter();
   const queryClient = useQueryClient();
   const [isDialogOpen, setIsDialogOpen] = useState(false);
   const [newUser, setNewUser] = useState<NewUser>({
@@ -92,6 +82,8 @@ export default function AdminDashboardClient() {
     },
   });
 
+  console.log(users);
+
   const handleCreateUser = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading("create");
@@ -114,43 +106,43 @@ export default function AdminDashboardClient() {
     }
   };
 
-  const handleDeleteUser = async (id: string) => {
-    setIsLoading(`delete-${id}`);
-    try {
-      // await authClient.admin.removeUser({ userId: id });
-      toast.success("User deleted successfully");
-      queryClient.invalidateQueries({ queryKey: ["users"] });
-    } catch (error: unknown) {
-      toast.error((error as Error).message || "Failed to delete user");
-    } finally {
-      setIsLoading(undefined);
-    }
-  };
+  // const handleDeleteUser = async (id: string) => {
+  //   setIsLoading(`delete-${id}`);
+  //   try {
+  //     // await authClient.admin.removeUser({ userId: id });
+  //     toast.success("User deleted successfully");
+  //     queryClient.invalidateQueries({ queryKey: ["users"] });
+  //   } catch (error: unknown) {
+  //     toast.error((error as Error).message || "Failed to delete user");
+  //   } finally {
+  //     setIsLoading(undefined);
+  //   }
+  // };
 
-  const handleRevokeSessions = async (id: string) => {
-    setIsLoading(`revoke-${id}`);
-    try {
-      // await authClient.admin.revokeUserSessions({ userId: id });
-      toast.success("Sessions revoked for user");
-    } catch (error: unknown) {
-      toast.error((error as Error).message || "Failed to revoke sessions");
-    } finally {
-      setIsLoading(undefined);
-    }
-  };
+  // const handleRevokeSessions = async (id: string) => {
+  //   setIsLoading(`revoke-${id}`);
+  //   try {
+  //     // await authClient.admin.revokeUserSessions({ userId: id });
+  //     toast.success("Sessions revoked for user");
+  //   } catch (error: unknown) {
+  //     toast.error((error as Error).message || "Failed to revoke sessions");
+  //   } finally {
+  //     setIsLoading(undefined);
+  //   }
+  // };
 
-  const handleImpersonateUser = async (id: string) => {
-    setIsLoading(`impersonate-${id}`);
-    try {
-      // await authClient.admin.impersonateUser({ userId: id });
-      toast.success("Impersonated user");
-      router.push("/dashboard");
-    } catch (error: unknown) {
-      toast.error((error as Error).message || "Failed to impersonate user");
-    } finally {
-      setIsLoading(undefined);
-    }
-  };
+  // const handleImpersonateUser = async (id: string) => {
+  //   setIsLoading(`impersonate-${id}`);
+  //   try {
+  //     // await authClient.admin.impersonateUser({ userId: id });
+  //     toast.success("Impersonated user");
+  //     router.push("/dashboard");
+  //   } catch (error: unknown) {
+  //     toast.error((error as Error).message || "Failed to impersonate user");
+  //   } finally {
+  //     setIsLoading(undefined);
+  //   }
+  // };
 
   const handleBanUser = async (e: React.FormEvent) => {
     e.preventDefault();
