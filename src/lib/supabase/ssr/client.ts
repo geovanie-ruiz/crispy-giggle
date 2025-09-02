@@ -8,7 +8,7 @@ import { Database } from "@/lib/supabase/types/database";
 export async function createServerSupabaseClient() {
   return await createClient<Database>(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_KEY!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
     {
       async accessToken() {
         return (await auth()).getToken();
