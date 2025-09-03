@@ -1143,7 +1143,7 @@ execute function set_updated_at ();
 -- Views
 -- =====================
 create or replace view
-  match_history as
+  match_history with (security_invoker = on) as
 select
   m.id,
   m.owner_clerk_id,
@@ -1183,7 +1183,7 @@ from
 
 -- Payload-first, lightweight timeline (no joins) for flexible rendering
 create or replace view
-  match_events_timeline_payload as
+  match_events_timeline_payload with (security_invoker = on) as
 select
   id,
   match_id,
@@ -1202,7 +1202,7 @@ from
 
 -- Focused payload-only convenience views
 create or replace view
-  vw_card_plays as
+  vw_card_plays with (security_invoker = on) as
 select
   e.id as event_id,
   e.match_id,
@@ -1219,7 +1219,7 @@ where
   e.event_type = 'card_played';
 
 create or replace view
-  vw_attacks as
+  vw_attacks with (security_invoker = on) as
 select
   e.id as event_id,
   e.match_id,
