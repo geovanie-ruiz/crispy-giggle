@@ -31,18 +31,19 @@ export default function Home() {
       {/* Vertically centered content within container, aligned with grid */}
       <section className="container w-full">
         <div className="grid grid-cols-1 md:grid-cols-5">
-          <div className="md:col-start-1 md:col-end-3 flex items-center px-6 py-4 sm:px-8 sm:py-16 md:px-10">
+          <div className="md:col-start-1 md:col-end-3 flex items-center py-4 px-8 sm:py-16">
             <div className="mx-auto max-w-2xl md:mx-0 md:max-w-2xl w-full">
               {/* Content card with transparent black tint and backdrop to make text pop */}
               <div className="rounded-xl bg-background backdrop-blur-sm backdrop-brightness-75 ring-1 ring-white/10 shadow-2xl p-6 sm:p-8">
                 <div className="flex flex-col gap-4 text-left">
                   <h1 className="text-4xl font-bold tracking-tight text-foreground">
-                    Welcome to GCG Coach
+                    Welcome to{" "}
+                    <span className="whitespace-nowrap">Mech Mentor</span>
                   </h1>
                   <p className="text-base sm:text-lg text-foreground">
-                    Analyze your Gundam game match logs to improve your piloting
-                    skills. Upload logs, get insights, and track your progress
-                    over time.
+                    The Gundam Card Game Coach. Analyze your match logs to
+                    improve your piloting skills. Upload logs, get insights, and
+                    track your progress over time.
                   </p>
                 </div>
               </div>

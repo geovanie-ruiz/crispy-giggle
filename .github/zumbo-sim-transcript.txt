@@ -1,0 +1,647 @@
+p1: corax1 joins side-a
+corax1 loads a 50-card deck.
+p2: huilok joins side-b
+corax1 is ready.
+huilok loads a 50-card deck.
+huilok is ready.
+huilok will go first.
+corax1 shuffles their deck.
+corax1 drew 5 cards.
+huilok shuffles their deck.
+huilok drew 5 cards.
+huilok takes a mulligan.
+huilok is ready.
+corax1 is ready.
+p1 sets 6 shields.
+p2 sets 6 shields.
+p1 places an EX Base.
+corax1 adds a EX Resource.
+p2 places an EX Base.
+Turn 1 - p2
+p2 starts their turn.
+|| Start Phase - p2
+huilok sets all rested cards as active.
+|| Draw Phase - p2
+huilok drew 1 cards.
+|| Resource Phase - p2
+huilok adds a Resource from the Resource Deck.
+|| Main Phase - p2
+p2 ends their turn.
+|| End Phase - p2
+p1 Action Timing Begins.
+p1 passes their Action.
+p2 Action Timing Begins.
+p2 passes their Action.
+Action Timing Ends.
+Turn 1 - p1
+p1 starts their turn.
+|| Start Phase - p1
+corax1 sets all rested cards as active.
+|| Draw Phase - p1
+corax1 drew 1 cards.
+|| Resource Phase - p1
+corax1 adds a Resource from the Resource Deck.
+|| Main Phase - p1
+corax1 plays Zaku Ⅱ from hand.
+corax1 rests a resource.
+corax1 deploys [p1a] Zaku Ⅱ.
+corax1 plays Dopp from hand.
+corax1 rests a resource.
+corax1 deploys [p1b] Dopp.
+• [p1b] Dopp [Deploy] effect
+corax1 looks at 1 card(s) from the top of their deck.
+corax1 top decks 1 card(s) from deck.
+p1 ends their turn.
+|| End Phase - p1
+p2 Action Timing Begins.
+p2 passes their Action.
+p1 Action Timing Begins.
+p1 passes their Action.
+Action Timing Ends.
+Turn 2 - p2
+p2 starts their turn.
+|| Start Phase - p2
+huilok sets all rested cards as active.
+|| Draw Phase - p2
+huilok drew 1 cards.
+|| Resource Phase - p2
+huilok adds a Resource from the Resource Deck.
+|| Main Phase - p2
+p2 ends their turn.
+|| End Phase - p2
+p1 Action Timing Begins.
+p1 passes their Action.
+p2 Action Timing Begins.
+p2 passes their Action.
+Action Timing Ends.
+Turn 2 - p1
+p1 starts their turn.
+|| Start Phase - p1
+corax1 sets all rested cards as active.
+|| Draw Phase - p1
+corax1 drew 1 cards.
+|| Resource Phase - p1
+corax1 adds a Resource from the Resource Deck.
+|| Main Phase - p1
+[p1b] Dopp attacks p2.
+Enter Combat Attack Step
+Dopp is rested.
+Enter Combat Block Step
+Enter Combat Action Step
+p2 Action Timing Begins.
+p2 passes their Action.
+p1 Action Timing Begins.
+p1 passes their Action.
+Action Timing Ends.
+Enter Combat Damage Step
+p2base takes 1 damage.
+Enter Combat EndBattle Step
+[p1a] Zaku Ⅱ attacks p2.
+Enter Combat Attack Step
+Zaku Ⅱ is rested.
+• [p1a] Zaku Ⅱ [Attack] effect
+Enter Combat Block Step
+Enter Combat Action Step
+p2 Action Timing Begins.
+p2 passes their Action.
+p1 Action Timing Begins.
+p1 passes their Action.
+Action Timing Ends.
+Enter Combat Damage Step
+p2base takes 3 damage.
+p2base destroyed.
+Enter Combat EndBattle Step
+p1 ends their turn.
+|| End Phase - p1
+p2 Action Timing Begins.
+p2 passes their Action.
+p1 Action Timing Begins.
+p1 passes their Action.
+Action Timing Ends.
+Turn 3 - p2
+p2 starts their turn.
+|| Start Phase - p2
+huilok sets all rested cards as active.
+|| Draw Phase - p2
+huilok drew 1 cards.
+|| Resource Phase - p2
+huilok adds a Resource from the Resource Deck.
+|| Main Phase - p2
+huilok plays Archangel from hand.
+huilok rests a resource.
+huilok deploys [p2base] Archangel.
+Resolving p2base
+huilok adds a card to their hand from shields.
+huilok plays ReZEL from hand.
+huilok rests 2 resources.
+huilok deploys [p2a] ReZEL.
+p2 ends their turn.
+|| End Phase - p2
+p1 Action Timing Begins.
+p1 passes their Action.
+p2 Action Timing Begins.
+p2 passes their Action.
+Action Timing Ends.
+Turn 3 - p1
+p1 starts their turn.
+|| Start Phase - p1
+corax1 sets all rested cards as active.
+|| Draw Phase - p1
+corax1 drew 1 cards.
+|| Resource Phase - p1
+corax1 adds a Resource from the Resource Deck.
+|| Main Phase - p1
+corax1 plays Char's Zaku Ⅱ from hand.
+corax1 rests 2 resources.
+corax1 deploys [p1c] Char's Zaku Ⅱ.
+corax1 plays Zaku Ⅱ from hand.
+corax1 rests a resource.
+corax1 deploys [p1d] Zaku Ⅱ.
+[p1b] Dopp attacks p2.
+Enter Combat Attack Step
+Dopp is rested.
+Enter Combat Block Step
+Enter Combat Action Step
+p2 Action Timing Begins.
+p2 passes their Action.
+p1 Action Timing Begins.
+p1 passes their Action.
+Action Timing Ends.
+Enter Combat Damage Step
+p2base takes 1 damage.
+Enter Combat EndBattle Step
+[p1a] Zaku Ⅱ attacks p2.
+Enter Combat Attack Step
+Zaku Ⅱ is rested.
+• [p1a] Zaku Ⅱ [Attack] effect
+Enter Combat Block Step
+Enter Combat Action Step
+p2 Action Timing Begins.
+p2 passes their Action.
+p1 Action Timing Begins.
+p1 passes their Action.
+Action Timing Ends.
+Enter Combat Damage Step
+p2base takes 3 damage.
+Enter Combat EndBattle Step
+p1 ends their turn.
+|| End Phase - p1
+p2 Action Timing Begins.
+p2 passes their Action.
+p1 Action Timing Begins.
+p1 passes their Action.
+Action Timing Ends.
+Turn 4 - p2
+p2 starts their turn.
+|| Start Phase - p2
+huilok sets all rested cards as active.
+|| Draw Phase - p2
+huilok drew 1 cards.
+|| Resource Phase - p2
+huilok adds a Resource from the Resource Deck.
+|| Main Phase - p2
+[p2a] ReZEL attacks [p1a] Zaku Ⅱ.
+Enter Combat Attack Step
+ReZEL is rested.
+Enter Combat Block Step
+Enter Combat Action Step
+p1 Action Timing Begins.
+p1 passes their Action.
+p2 Action Timing Begins.
+p2 passes their Action.
+Action Timing Ends.
+Enter Combat Damage Step
+[p1a] Zaku Ⅱ takes 4 damage.
+[p2a] ReZEL takes 1 damage.
+[p1a] Zaku Ⅱ destroyed.
+Enter Combat EndBattle Step
+p2 ends their turn.
+|| End Phase - p2
+p1 Action Timing Begins.
+p1 passes their Action.
+p2 Action Timing Begins.
+p2 passes their Action.
+Action Timing Ends.
+Turn 4 - p1
+p1 starts their turn.
+|| Start Phase - p1
+corax1 sets all rested cards as active.
+|| Draw Phase - p1
+corax1 drew 1 cards.
+|| Resource Phase - p1
+corax1 adds a Resource from the Resource Deck.
+|| Main Phase - p1
+corax1 plays Guncannon from hand.
+corax1 rests 2 resources.
+corax1 deploys [p1e] Guncannon.
+corax1 plays Amuro Ray from hand.
+corax1 rests a resource.
+corax1 links Amuro Ray with [p1e] Guncannon.
+• [p1e] Guncannon [When Paired] effect
+• [p1e] Amuro Ray [When Paired] effect
+[p1c] Char's Zaku Ⅱ attacks [p2a] ReZEL.
+Enter Combat Attack Step
+Char's Zaku Ⅱ is rested.
+Enter Combat Block Step
+Enter Combat Action Step
+p2 Action Timing Begins.
+huilok plays Hawk of Endymion from hand.
+huilok rests a resource.
+huilok activates Hawk of Endymion
+• [ST04-013] Hawk of Endymion [Main] effect
+[p1c] Char's Zaku Ⅱ is returned to its owner's hand.
+huilok trashes Hawk of Endymion
+p1 Action Timing Begins.
+Action Timing Ends.
+Enter Combat EndBattle Step
+[p1d] Zaku Ⅱ attacks [p2a] ReZEL.
+Enter Combat Attack Step
+Zaku Ⅱ is rested.
+• [p1d] Zaku Ⅱ [Attack] effect
+Enter Combat Block Step
+Enter Combat Action Step
+p2 Action Timing Begins.
+p2 passes their Action.
+p1 Action Timing Begins.
+p1 passes their Action.
+Action Timing Ends.
+Enter Combat Damage Step
+[p2a] ReZEL takes 3 damage.
+[p1d] Zaku Ⅱ takes 4 damage.
+[p2a] ReZEL, [p1d] Zaku Ⅱ destroyed.
+Enter Combat EndBattle Step
+[p1b] Dopp attacks p2.
+Enter Combat Attack Step
+Dopp is rested.
+Enter Combat Block Step
+Enter Combat Action Step
+p2 Action Timing Begins.
+p2 passes their Action.
+p1 Action Timing Begins.
+p1 passes their Action.
+Action Timing Ends.
+Enter Combat Damage Step
+p2base takes 1 damage.
+p2base destroyed.
+Enter Combat EndBattle Step
+[p1e] Guncannon attacks p2.
+Enter Combat Attack Step
+Guncannon is rested.
+Enter Combat Block Step
+Enter Combat Action Step
+p2 Action Timing Begins.
+p2 passes their Action.
+p1 Action Timing Begins.
+p1 passes their Action.
+Action Timing Ends.
+Enter Combat Damage Step
+side-b takes 4 damage.
+huilok's shield is destroyed. Revealed GM.
+huilok trashes GM
+Enter Combat EndBattle Step
+corax1 plays Dopp from hand.
+corax1 rests a resource.
+corax1 deploys [p1f] Dopp.
+• [p1f] Dopp [Deploy] effect
+corax1 looks at 1 card(s) from the top of their deck.
+corax1 bottom decks 1 card(s) from deck.
+p1 ends their turn.
+|| End Phase - p1
+p2 Action Timing Begins.
+p2 passes their Action.
+p1 Action Timing Begins.
+p1 passes their Action.
+Action Timing Ends.
+Turn 5 - p2
+p2 starts their turn.
+|| Start Phase - p2
+huilok sets all rested cards as active.
+|| Draw Phase - p2
+huilok drew 1 cards.
+|| Resource Phase - p2
+huilok adds a Resource from the Resource Deck.
+|| Main Phase - p2
+huilok plays White Base from hand.
+huilok rests 2 resources.
+huilok deploys [p2base] White Base.
+Resolving p2base
+huilok adds a card to their hand from shields.
+Resolving p2base
+huilok rests 2 resources.
+huilok deploys [p2b] a Gundam Token.
+p2 ends their turn.
+|| End Phase - p2
+p1 Action Timing Begins.
+p1 passes their Action.
+p2 Action Timing Begins.
+p2 passes their Action.
+Action Timing Ends.
+Turn 5 - p1
+p1 starts their turn.
+|| Start Phase - p1
+corax1 sets all rested cards as active.
+|| Draw Phase - p1
+corax1 drew 1 cards.
+|| Resource Phase - p1
+corax1 adds a Resource from the Resource Deck.
+|| Main Phase - p1
+corax1 plays Char's Zaku Ⅱ from hand.
+corax1 rests 2 resources.
+corax1 deploys [p1g] Char's Zaku Ⅱ.
+corax1 plays Char's Zaku Ⅱ from hand.
+corax1 rests 2 resources.
+corax1 deploys [p1h] Char's Zaku Ⅱ.
+[p1e] Guncannon attacks p2.
+Enter Combat Attack Step
+Guncannon is rested.
+Enter Combat Block Step
+Enter Combat Action Step
+p2 Action Timing Begins.
+huilok plays Unforeseen Incident from hand.
+huilok rests a resource.
+huilok activates Unforeseen Incident
+• [ST01-014] Unforeseen Incident [Main] effect
+huilok trashes Unforeseen Incident
+p1 Action Timing Begins.
+p1 passes their Action.
+p2 Action Timing Begins.
+p2 passes their Action.
+Action Timing Ends.
+Enter Combat Damage Step
+p2base takes 1 damage.
+Enter Combat EndBattle Step
+[p1f] Dopp attacks p2.
+Enter Combat Attack Step
+Dopp is rested.
+Enter Combat Block Step
+Enter Combat Action Step
+p2 Action Timing Begins.
+p2 passes their Action.
+p1 Action Timing Begins.
+p1 passes their Action.
+Action Timing Ends.
+Enter Combat Damage Step
+p2base takes 1 damage.
+Enter Combat EndBattle Step
+[p1b] Dopp attacks p2.
+Enter Combat Attack Step
+Dopp is rested.
+Enter Combat Block Step
+Enter Combat Action Step
+p2 Action Timing Begins.
+p2 passes their Action.
+p1 Action Timing Begins.
+p1 passes their Action.
+Action Timing Ends.
+Enter Combat Damage Step
+p2base takes 1 damage.
+Enter Combat EndBattle Step
+p1 ends their turn.
+|| End Phase - p1
+p2 Action Timing Begins.
+p2 passes their Action.
+p1 Action Timing Begins.
+p1 passes their Action.
+Action Timing Ends.
+Turn 6 - p2
+p2 starts their turn.
+|| Start Phase - p2
+huilok sets all rested cards as active.
+|| Draw Phase - p2
+huilok drew 1 cards.
+|| Resource Phase - p2
+huilok adds a Resource from the Resource Deck.
+|| Main Phase - p2
+huilok plays Aile Strike Gundam from hand.
+huilok rests 4 resources.
+huilok deploys [p2c] Aile Strike Gundam.
+huilok plays Amuro Ray from hand.
+huilok rests a resource.
+huilok pairs Amuro Ray with [p2c] Aile Strike Gundam.
+• [p2c] Aile Strike Gundam [When Paired･Lv.4 or Higher Pilot] effect
+[p1g] Char's Zaku Ⅱ is returned to its owner's hand.
+• [p2c] Amuro Ray [When Paired] effect
+Char's Zaku Ⅱ is rested.
+[p2b] Gundam attacks [p1h] Char's Zaku Ⅱ.
+Enter Combat Attack Step
+Gundam is rested.
+Enter Combat Block Step
+Enter Combat Action Step
+p1 Action Timing Begins.
+p1 passes their Action.
+p2 Action Timing Begins.
+Action Timing Ends.
+Enter Combat Damage Step
+[p1h] Char's Zaku Ⅱ takes 3 damage.
+[p2b] Gundam takes 3 damage.
+[p1h] Char's Zaku Ⅱ, [p2b] Gundam destroyed.
+Enter Combat EndBattle Step
+p2 ends their turn.
+|| End Phase - p2
+p1 Action Timing Begins.
+p1 passes their Action.
+p2 Action Timing Begins.
+p2 passes their Action.
+Action Timing Ends.
+Turn 6 - p1
+p1 starts their turn.
+|| Start Phase - p1
+corax1 sets all rested cards as active.
+|| Draw Phase - p1
+corax1 drew 1 cards.
+|| Resource Phase - p1
+corax1 adds a Resource from the Resource Deck.
+|| Main Phase - p1
+corax1 plays Char's Zaku Ⅱ from hand.
+corax1 rests 2 resources.
+corax1 deploys [p1i] Char's Zaku Ⅱ.
+corax1 plays Char Aznable from hand.
+corax1 rests a resource.
+corax1 links Char Aznable with [p1i] Char's Zaku Ⅱ.
+[p1i] Char's Zaku Ⅱ attacks p2.
+Enter Combat Attack Step
+Char's Zaku Ⅱ is rested.
+• [p1i] Char Aznable [Attack] effect
+Enter Combat Block Step
+• [p1i] Char's Zaku Ⅱ effect
+Enter Combat Action Step
+p2 Action Timing Begins.
+p2 passes their Action.
+p1 Action Timing Begins.
+p1 passes their Action.
+Action Timing Ends.
+Enter Combat Damage Step
+p2base takes 5 damage.
+p2base destroyed.
+Enter Combat EndBattle Step
+[p1f] Dopp attacks p2.
+Enter Combat Attack Step
+Dopp is rested.
+Enter Combat Block Step
+Aile Strike Gundam is rested.
+[p2c] Aile Strike Gundam blocks the attack.
+Enter Combat Action Step
+p2 Action Timing Begins.
+p2 passes their Action.
+p1 Action Timing Begins.
+p1 passes their Action.
+Action Timing Ends.
+Enter Combat Damage Step
+[p2c] Aile Strike Gundam takes 1 damage.
+[p1f] Dopp takes 6 damage.
+[p1f] Dopp destroyed.
+Enter Combat EndBattle Step
+[p1e] Guncannon attacks p2.
+Enter Combat Attack Step
+Guncannon is rested.
+Enter Combat Block Step
+Enter Combat Action Step
+p2 Action Timing Begins.
+p2 passes their Action.
+p1 Action Timing Begins.
+p1 passes their Action.
+Action Timing Ends.
+Enter Combat Damage Step
+side-b takes 4 damage.
+huilok's shield is destroyed. Revealed GM.
+huilok trashes GM
+Enter Combat EndBattle Step
+[p1b] Dopp attacks p2.
+Enter Combat Attack Step
+Dopp is rested.
+Enter Combat Block Step
+Enter Combat Action Step
+p2 Action Timing Begins.
+p2 passes their Action.
+p1 Action Timing Begins.
+p1 passes their Action.
+Action Timing Ends.
+Enter Combat Damage Step
+side-b takes 1 damage.
+huilok's shield is destroyed. Revealed Freedom Gundam.
+huilok trashes Freedom Gundam
+Enter Combat EndBattle Step
+corax1 plays White Base from hand.
+corax1 rests 2 resources.
+corax1 deploys [p1base] White Base.
+• [p1base] White Base [Deploy] effect
+corax1 adds a card to their hand from shields.
+p1 ends their turn.
+|| End Phase - p1
+p2 Action Timing Begins.
+p2 passes their Action.
+p1 Action Timing Begins.
+p1 passes their Action.
+Action Timing Ends.
+Turn 7 - p2
+p2 starts their turn.
+|| Start Phase - p2
+huilok sets all rested cards as active.
+|| Draw Phase - p2
+huilok drew 1 cards.
+|| Resource Phase - p2
+huilok adds a Resource from the Resource Deck.
+|| Main Phase - p2
+huilok plays Aile Strike Gundam from hand.
+huilok rests 4 resources.
+huilok deploys [p2d] Aile Strike Gundam.
+huilok plays Gundam from hand.
+huilok rests 3 resources.
+huilok deploys [p2e] Gundam.
+[p2c] Aile Strike Gundam attacks [p1i] Char's Zaku Ⅱ.
+Enter Combat Attack Step
+Aile Strike Gundam is rested.
+Enter Combat Block Step
+Enter Combat Action Step
+p1 Action Timing Begins.
+p1 passes their Action.
+p2 Action Timing Begins.
+p2 passes their Action.
+Action Timing Ends.
+Enter Combat Damage Step
+[p1i] Char's Zaku Ⅱ takes 6 damage.
+[p2c] Aile Strike Gundam takes 4 damage.
+[p1i] Char's Zaku Ⅱ, [p2c] Aile Strike Gundam destroyed.
+• [p1i] Char's Zaku Ⅱ [Destroyed] effect
+corax1 looks at 3 card(s) from the top of their deck.
+corax1 reveals Char's Zaku Ⅱ (GD01-026) from their deck.
+corax1 adds a card to their hand from deck.
+corax1 bottom decks 2 card(s) from deck.
+Enter Combat EndBattle Step
+p2 ends their turn.
+|| End Phase - p2
+p1 Action Timing Begins.
+p1 passes their Action.
+p2 Action Timing Begins.
+p2 passes their Action.
+Action Timing Ends.
+Turn 7 - p1
+p1 starts their turn.
+|| Start Phase - p1
+corax1 sets all rested cards as active.
+|| Draw Phase - p1
+corax1 drew 1 cards.
+|| Resource Phase - p1
+corax1 adds a Resource from the Resource Deck.
+|| Main Phase - p1
+corax1 plays Char's Zaku Ⅱ from hand.
+corax1 rests 2 resources.
+corax1 deploys [p1j] Char's Zaku Ⅱ.
+corax1 plays Char's Zaku Ⅱ from hand.
+corax1 rests 2 resources.
+corax1 deploys [p1k] Char's Zaku Ⅱ.
+corax1 plays Zaku Ⅰ from hand.
+corax1 rests a resource.
+corax1 deploys [p1l] Zaku Ⅰ.
+• [p1base] White Base [Activate･Main] effect
+corax1 rests 2 resources.
+corax1 deploys [p1m] a Guntank Token.
+[p1b] Dopp attacks p2.
+Enter Combat Attack Step
+Dopp is rested.
+Enter Combat Block Step
+Aile Strike Gundam is rested.
+[p2d] Aile Strike Gundam blocks the attack.
+Enter Combat Action Step
+p2 Action Timing Begins.
+p2 passes their Action.
+p1 Action Timing Begins.
+p1 passes their Action.
+Action Timing Ends.
+Enter Combat Damage Step
+[p2d] Aile Strike Gundam takes 1 damage.
+[p1b] Dopp takes 4 damage.
+[p1b] Dopp destroyed.
+Enter Combat EndBattle Step
+[p1e] Guncannon attacks p2.
+Enter Combat Attack Step
+Guncannon is rested.
+Enter Combat Block Step
+Enter Combat Action Step
+p2 Action Timing Begins.
+p2 passes their Action.
+p1 Action Timing Begins.
+p1 passes their Action.
+Action Timing Ends.
+Enter Combat Damage Step
+side-b takes 4 damage.
+huilok's shield is destroyed. Revealed Overflowing Affection.
+huilok trashes Overflowing Affection
+Enter Combat EndBattle Step
+p1 ends their turn.
+|| End Phase - p1
+p2 Action Timing Begins.
+p2 passes their Action.
+p1 Action Timing Begins.
+Action Timing Ends.
+Turn 8 - p2
+p2 starts their turn.
+|| Start Phase - p2
+huilok sets all rested cards as active.
+|| Draw Phase - p2
+huilok drew 1 cards.
+|| Resource Phase - p2
+huilok adds a Resource from the Resource Deck.
+|| Main Phase - p2
+p2 concedes.
+corax1 wins!

@@ -11,14 +11,19 @@ export function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <Bot className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold text-foreground font-serif">
-                The Gundam Card Game Coach
-              </span>
+              <div className="flex flex-col">
+                <span className="text-xl font-semibold text-foreground font-sans tracking-tight">
+                  Mech Mentor
+                </span>
+                <span className="text-sm text-muted-foreground font-serif tracking-wide leading-tight">
+                  The Gundam Card Game Coach
+                </span>
+              </div>
             </div>
             <p className="text-muted-foreground max-w-md">
-              Analyze your Gundam game match logs to improve your piloting
-              skills. Upload logs, get insights, and track your progress over
-              time.
+              Upload your Gundam Card Game match logs and get AI-powered
+              coaching—turn-by-turn insights, critical decision points, and
+              matchup guidance—then track your improvement over time.
             </p>
             <div className="flex flex-row gap-4 mt-6 items-center">
               {siteConfig.links.map((link) => (
@@ -48,6 +53,7 @@ export function Footer() {
                   <li key={link.label}>
                     <Link
                       href={link.href}
+                      target={link.target}
                       className="hover:text-primary transition-colors"
                     >
                       {link.label}
